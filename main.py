@@ -88,6 +88,7 @@ class SandwichMachine:
 
 
 ### Make an instance of SandwichMachine class and write the rest of the codes ###
+#commit 5
 SandwichMachine = SandwichMachine(resources)
 
 # While the system has not been turned off
