@@ -81,6 +81,7 @@ class SandwichMachine:
     # Takes sandwhich_size and order_ingredients as attributes
     # and subtracts the resources used from the resources dictionary
     # has no return type
+    #commit 4
     def make_sandwich(self, sandwich_size, order_ingredients):
         for ingredient, quantity in order_ingredients.items():
             self.machine_resources[ingredient] -= quantity
