@@ -52,6 +52,7 @@ class SandwichMachine:
         return True
 
     # Takes coins inserted and returns the total of them
+    #commit 2
     def process_coins(self):
         coins = {"large dollar": 1, "half dollar": .5, "quarter": .25, "nickel": .05}
         total = 0
