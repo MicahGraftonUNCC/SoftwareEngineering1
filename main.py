@@ -67,6 +67,7 @@ class SandwichMachine:
 
     # Takes coins and cost as attributes, and returns users change if there is enough money
     # and returns all money if it is not enough
+    #commit 3
     def transaction_result(self, coins, cost):
         if coins < cost:
             print(f"Sorry that's not enough money. Money refunded.")
