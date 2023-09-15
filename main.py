@@ -44,6 +44,7 @@ class SandwichMachine:
 
     # Takes ingredients as a attribute and returns true if the order can be made and false if ingredients are
     # insufficient
+    # adding commit
     def check_resources(self, ingredients):
         for ingredient, quantity in ingredients.items():
             if self.machine_resources.get(ingredient) is None or self.machine_resources[ingredient] < quantity:
