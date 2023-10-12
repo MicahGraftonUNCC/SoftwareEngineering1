@@ -4,7 +4,7 @@ from typing import Union
 from fastapi import FastAPI
 
 app = FastAPI()
-
+#commit comment
 #Method 1, part 1
 @app.get("/")
 def read_root():
